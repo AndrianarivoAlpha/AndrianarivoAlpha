@@ -1,0 +1,97 @@
+body {
+    font-size: 12pt;
+    background-color: #242526;
+    color: #e4e6eb ;
+    font-family: sans-serif;
+}
+header p, i {
+  margin-top: 0;
+}
+header p{
+  font-weight: 900 ;
+  font-size: 30px;
+}
+header i {
+  margin-left: 2px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #3a3b3c;
+  font-size: 20px ;
+}
+.white-divider {
+  margin-top: 10px;
+  border-bottom: 0.5px solid gray;
+}
+.publier {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.photo-pub i, p {
+  display: flex ;
+  flex-direction: column ;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.blue {
+  color: #0892d0;
+}
+.red {
+  color: orangered;
+}
+.fuchsia {
+  color: fuchsia;
+}
+.mind,.mind-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  margin-top: 5px;
+  margin-left: 7.5%;
+}
+.mind {
+  width: 80%;
+}
+.mind-item i,.mind-item p {
+  margin: 0;
+}
+.mind-item p {
+  margin-left: 5px;
+}
+.black-divider {
+  margin-top: 10px;
+  border-bottom: 5px solid black;
+}
+.story {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+}
+.story-container {
+  margin-top: 20px;
+  width: 24%;
+  height: 170px;
+  border-radius: 10px;
+  text-align: center ;
+}
+.add-story {
+  background-color: #3a3b3c ;
+  text-align: center ;
+}
+.add-story img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px 10px 0 0;
+  
+}
+.my-story img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover ;
+}
+input {
+  color: white;
+  font-size: 16px;
+}
